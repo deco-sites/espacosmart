@@ -58,7 +58,7 @@ const relative = (url: string) => {
 };
 
 const WIDTH = 200;
-const HEIGHT = 279;
+const HEIGHT = 200;
 
 function ProductCard(
   { product, preload, itemListName, layout, platform, index }: Props,
@@ -239,12 +239,6 @@ function ProductCard(
                 <h2
                   class="truncate text-base lg:text-lg text-base-content"
                   dangerouslySetInnerHTML={{ __html: name ?? "" }}
-                />
-              )}
-              {l?.hide?.productDescription ? "" : (
-                <div
-                  class="truncate text-sm lg:text-sm text-neutral"
-                  dangerouslySetInnerHTML={{ __html: description ?? "" }}
                 />
               )}
             </div>
