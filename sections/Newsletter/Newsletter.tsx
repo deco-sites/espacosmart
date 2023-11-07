@@ -99,7 +99,7 @@ export default function Newsletter(props: Props) {
           {headerLayout}
           <div class="flex justify-center">
             {formLayout}
-          </div>
+          </div> 
         </div>
       )}
       {layout?.content?.alignment === "Left" && (
